@@ -1,0 +1,55 @@
+<html>
+<head> names of classmates </head>;
+<body>
+<?php
+$a=array("p1"=>"orange ", "p2"=>"banana", "p3"=>"apple");
+foreach ($a as $x => $x_values){
+echo"key==".$x."value= ".$x_value.".";
+echo "<br>";
+echo $a["p1"];
+echo count($a);
+foreach($a as $x=> $values){
+if ($x=="n2"){
+echo $values;}
+}
+<?
+<?php
+$Games= array(
+array("final fantacy", 11, $),
+array ("green turismo", 3, 5),
+array ("dargon quest" , 1,3),
+);
+echo "my faviorate game in "".$Games[0][0]." series are ".$Games[0][1]."and ".$Games[0][2]."<br>";
+
+<?php
+$a=array(
+"p1" =>"orange",
+"p2" =>"banana",
+"p3"=>"apple",
+print_r($a);
+<?
+
+<?php
+$a=array();
+$a['p1']="orange",
+$a['p2']= "banana",
+$a['p3']="apple",
+print_r($a);
+?>
+
+<?php
+for ($row=0; $row<4; $row++){
+echo "<p> <b> Games series $Game [$row] [0] </b></p>";
+echo "<ul>";
+for ($col=1 , $col<3;$col++){
+echo "<il>". $Games [$row][$col]."</li>";
+}
+echo "</ul>";
+}
+?>
+
+
+
+?>
+</body>
+</html>
