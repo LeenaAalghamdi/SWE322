@@ -28,14 +28,29 @@ else{
 pubic function getCourseDetails(){
   return "course code:".$this->courseCode."<br>course Name:".$this->courseName<br>course Discription:".$this=>courseDescription."<br>Grade:".$this->grade<br>
   }
-$courses= array ($course1, $course2);
-$swe322 =new course();
-$cis =new curse();
-$swe322->set_name('advanced web');
-$cis->set_name('programming');
-echo $swe322->get_name();
-echo "<br>";
-echo $cis->get_name():
+  }
+  $course1= new course();
+  $course1->setCourseCode("SWE322");
+  $course1->setCourseName("Advanced web");
+  $course1->setCourseDescription("Advanced");
+  $course1->setCourseGrdae("A");
+  $course2=new course();
+  $course2->setCourseCode("CIS202");
+  $course2->setCourseName("Data structure");
+  $course2->setCourseDescription("introduction");
+  $course2->setCourseGrade("B+");
+  $courses= array($course1,$course2);
+  echo"<table>";
+  echo "<tr><th>Course Code</th><th>Course Name</th><th>Course Description</th><th>Course Grade</th></tr>";
+  foreach ($courses as $course){
+  if ($course->is A()){
+  echo "<tr> style='background-color: yallow'>";
+  }else {
+  echo"<tr>";
+  }
+  echo "<td>.$course->getCourseCode()."</td><td>".$course->getCourseName()."</td><td>".$course->getCourseDescription()."</td><td>".$course->getCourseGrade()."</td></tr>";
+}
+echo "</table>";
   ?>
   </body>
 </html>
