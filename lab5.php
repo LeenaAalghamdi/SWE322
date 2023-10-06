@@ -26,7 +26,7 @@ else{
 }
 }
 pubic function getCourseDetails(){
-  return "course code:".$this->courseCode."<br>course Name:".$this->courseName<br>course Discription:".$this=>courseDescription."<br>Grade:".$this->grade<br>
+  return "course code:".$this->courseCode."<br>course Name:".$this->courseName<br>course Description:".$this=>courseDescription."<br>Grade:".$this->grade<br>
   }
   }
   $course1= new course();
@@ -34,7 +34,7 @@ pubic function getCourseDetails(){
   $course1->setCourseName("Advanced web");
   $course1->setCourseDescription("Advanced");
   $course1->setCourseGrdae("A");
-  $course2=new course();
+  $course2= new course();
   $course2->setCourseCode("CIS202");
   $course2->setCourseName("Data structure");
   $course2->setCourseDescription("introduction");
